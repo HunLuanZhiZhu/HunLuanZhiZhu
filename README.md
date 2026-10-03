@@ -1,123 +1,239 @@
-# HunLuanZhiZhu
+<div align="center">
 
-🌐 **Personal Website / Browser Lab:** https://zyh.sryze.cc/  
-GitHub Pages fallback: https://hunluanzhizhu.github.io/
+<img src="./assets/profile-banner.svg" width="100%" alt="HunLuanZhiZhu — AI Research, Agent Systems and Browser Lab" />
 
-[中文版本](./READMEch.md)
+<br/>
 
-> This profile was summarized by **GPT-5.6 Sol on the ChatGPT web app** from my GitHub repositories. The summary focuses on projects that are representative of my own work and intentionally avoids treating mirrors, clones, or non-representative repositories as core projects.
+<a href="https://zyh.sryze.cc/"><img src="https://img.shields.io/badge/Browser_Lab-zyh.sryze.cc-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Browser Lab"/></a>
+<a href="https://github.com/HunLuanZhiZhu"><img src="https://img.shields.io/badge/GitHub-HunLuanZhiZhu-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="./READMEch.md"><img src="https://img.shields.io/badge/中文版本-READMEch.md-2563eb?style=for-the-badge" alt="Chinese version"/></a>
 
-## Personal Website — Browser Lab
+<br/><br/>
 
-My personal website is not only a profile page. It is a browser-based project laboratory and a public index of experiments, research presentations, graphics work, AI-assisted creations, small applications, and interactive demos.
+**AI research · optimization · agent infrastructure · browser experiments**
 
-The site is maintained in:
-
-**Repository:** https://github.com/HunLuanZhiZhu/hunluanzhizhu.github.io
-
-The root page is implemented as a self-contained static HTML experience with inline styling, fonts, and JavaScript, without a framework or build system required at runtime. Individual projects live under `/projects/` and are designed to be directly usable in the browser.
-
-The site currently includes work such as:
-
-- **Minecraft Web** — a Rust + Bevy + WebAssembly 3D sandbox.
-- **Neon Pulse** — a Canvas-based arcade / avoidance experiment.
-- **Group Meeting PPTs** — browser-hosted research presentations with interactive presentation indexes.
-- **GUON Optimizer** — an optimizer-themed research / satire project.
-- **ECG AI Local** — a local browser-side ECG / AI experiment using TensorFlow.js and SNN-related ideas.
-- **Liang Intensity Calibrator** — an AI/video/Canvas interactive calibration project.
-- **Game Studio Eval** — browser-published AI game-generation evaluation work involving Godot and WebAssembly.
-- **Dynamic SVG Pelican** — animated SVG experiments.
-- **Blender 3D** — Blender / glTF / WebGL experiments.
-- **Open Design Test** — WebGL2 and shader-based design experiments.
-- Several small client or utility projects are also published through the same site.
-
-The homepage itself is part of the experiment: it contains project search and filtering, Chinese/English switching, interactive procedural graphics, WebGL effects, motion controls, keyboard navigation, responsive layouts, and accessibility-oriented interaction design.
-
-In other words, the website serves as the most direct visual index of what I build:
-
-**research artifacts + AI experiments + graphics + games + tools + browser engineering**
-
-## About Me
-
-I am an AI researcher and developer interested in understanding, reproducing, modifying, and engineering machine-learning systems rather than only using existing models as black boxes.
-
-A recurring workflow visible across my repositories is:
-
-**paper → mechanism analysis → reproduction → modification → experiment → engineering → automation**
-
-My projects span research code, optimization methods, reinforcement learning, AI-agent tooling, model API infrastructure, browser experiments, and research presentation systems.
-
-## Representative Repositories
-
-### AdaNCFGD
-
-Adaptive fractional gradient-descent optimizers with PyTorch integration, together with a spiking-neural-network framework.
-
-It reflects my interest in optimization mechanisms, training dynamics, and turning experimental algorithms into reusable software packages.
-
-https://github.com/HunLuanZhiZhu/AdaNCFGD
-
-### mini-proxy
-
-A lightweight Rust AI API proxy supporting OpenAI-style, Anthropic-style, and Responses-style interfaces.
-
-It includes streaming forwarding, retry logic, model mapping, request normalization, configurable reasoning effort, and protocol adaptation. This repository represents the systems / infrastructure side of my AI work.
-
-https://github.com/HunLuanZhiZhu/mini-proxy
-
-### .agents
-
-My personal AI-agent skill and workflow collection.
-
-It organizes reusable agent skills, behavioral constraints, version locking, tooling, and research/productivity workflows. This repository reflects my growing interest in treating AI agents not as chat interfaces, but as programmable research infrastructure.
-
-https://github.com/HunLuanZhiZhu/.agents
-
-### Auto-zcode-research-in-sleep
-
-An experiment around automating research and coding workflows with AI agents.
-
-https://github.com/HunLuanZhiZhu/Auto-zcode-research-in-sleep
-
-### ZCode-Game-Studios
-
-A repository around AI-assisted game creation and evaluation, connected to the browser-published game-studio evaluation work on my personal site.
-
-https://github.com/HunLuanZhiZhu/ZCode-Game-Studios
-
-### liang-intensity-calibrator
-
-An interactive AI-related calibration project that is also published through my personal website.
-
-https://github.com/HunLuanZhiZhu/liang-intensity-calibrator
-
-## Research and Engineering Interests
-
-My repositories currently cluster around several themes:
-
-- optimization algorithms and neural-network training;
-- reinforcement learning and multi-agent methods;
-- spiking neural networks;
-- AI agents and automated research workflows;
-- AI API infrastructure and model interoperability;
-- browser-native interactive systems;
-- AI-assisted graphics, games, and design experiments;
-- research reproduction and presentation.
-
-The common thread is problem-driven experimentation. I tend to move between research code and engineering layers depending on what is required to understand or build the system.
-
-## Current Direction
-
-A visible transition across my recent repositories is:
-
-**researching AI systems**
-
-→
-
-**building AI systems that can assist with research, coding, experimentation, and creation**
-
-The personal website acts as the public-facing surface of that process, while the repositories contain the underlying experiments, tools, and research implementations.
+</div>
 
 ---
 
-Generated by **GPT-5.6 Sol on the ChatGPT web app**, based on the GitHub repositories of **HunLuanZhiZhu**.
+## 🧪 Browser Lab — my main public showcase
+
+> **https://zyh.sryze.cc/**  
+> GitHub Pages fallback: https://hunluanzhizhu.github.io/
+
+My personal site is not a conventional portfolio page. It is a **browser-native laboratory** where research artifacts, interactive experiments, graphics, games, AI-assisted creations, and small applications are published as things you can actually open and use.
+
+The site itself is deliberately lightweight: a static, framework-free front page with inline CSS / JavaScript / fonts, while individual experiments live under <code>/projects/</code>.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧱 Minecraft Web
+**Rust · Bevy · WebAssembly**
+
+A browser-based 3D sandbox experiment compiled to WASM.
+
+[Open project →](https://zyh.sryze.cc/projects/minecraft-web/)
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 Group Meeting PPTs
+**Slides · KaTeX · SVG · WebGL**
+
+Research presentations published directly as browser experiences, with a dedicated session index.
+
+[Open project →](https://zyh.sryze.cc/projects/group-meeting-ppts/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎮 AI Game Studio Eval
+**Benchmark · Godot · WASM**
+
+A browser-published evaluation of AI-generated games and game-building workflows.
+
+[Open project →](https://zyh.sryze.cc/projects/game-studio-eval-s2/)
+
+</td>
+<td width="50%" valign="top">
+
+### ❤️ ECG AI Local
+**TensorFlow.js · SNN · Local AI**
+
+A browser-local ECG / AI experiment exploring client-side inference and neural modeling ideas.
+
+[Open project →](https://zyh.sryze.cc/projects/ecg-ai-local/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎛️ Liang Intensity Calibrator
+**AI · Video · Canvas**
+
+An interactive calibration experiment combining AI-generated material, video, and browser graphics.
+
+[Open project →](https://zyh.sryze.cc/projects/liang-intensity-calibrator/)
+
+</td>
+<td width="50%" valign="top">
+
+### ✨ Open Design Test
+**WebGL2 · Shader · Interactive Design**
+
+A browser graphics experiment centered on procedural visuals, interaction, and shader-driven effects.
+
+[Open project →](https://zyh.sryze.cc/projects/open-design-test/)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[**Explore the full Browser Lab →**](https://zyh.sryze.cc/)
+
+</div>
+
+The homepage is also part of the experiment: project filtering and search, Chinese / English switching, procedural visuals, WebGL effects, motion controls, responsive layouts, keyboard navigation, and small interaction details are all implemented directly in the page.
+
+---
+
+## 🔬 What I build
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Research
+Optimization algorithms, reinforcement learning, spiking neural networks, paper reproduction, experimental model ideas.
+
+</td>
+<td width="33%" valign="top">
+
+### Agent Systems
+Reusable agent skills, automated research / coding workflows, model API infrastructure, workspace tooling.
+
+</td>
+<td width="33%" valign="top">
+
+### Browser Engineering
+WebAssembly, WebGL, Canvas, SVG, browser-native demos, games, interactive research presentations.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**paper → mechanism → reproduction → modification → experiment → engineering → automation**
+
+</div>
+
+---
+
+## 🚀 Representative repositories
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [AdaNCFGD](https://github.com/HunLuanZhiZhu/AdaNCFGD)
+Adaptive fractional gradient-descent optimizers with PyTorch integration and a spiking-neural-network framework.
+
+<code>optimization</code> · <code>PyTorch</code> · <code>SNN</code> · <code>research software</code>
+
+</td>
+<td width="50%" valign="top">
+
+### [mini-proxy](https://github.com/HunLuanZhiZhu/mini-proxy)
+A lightweight Rust proxy for OpenAI-style, Anthropic-style, and Responses-style model APIs, with streaming, retries, mapping, and request adaptation.
+
+<code>Rust</code> · <code>AI API</code> · <code>SSE</code> · <code>infrastructure</code>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [.agents](https://github.com/HunLuanZhiZhu/.agents)
+My reusable AI-agent skills and workflow layer: behavior rules, skill organization, version locking, and research / productivity tooling.
+
+<code>agents</code> · <code>skills</code> · <code>automation</code> · <code>workflow</code>
+
+</td>
+<td width="50%" valign="top">
+
+### [Auto-zcode-research-in-sleep](https://github.com/HunLuanZhiZhu/Auto-zcode-research-in-sleep)
+An experiment around automating research and coding workflows with AI agents.
+
+<code>agents</code> · <code>research automation</code> · <code>coding</code>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [ZCode-Game-Studios](https://github.com/HunLuanZhiZhu/ZCode-Game-Studios)
+AI-assisted game creation and evaluation work, connected to the public browser demos in my Browser Lab.
+
+<code>AI</code> · <code>games</code> · <code>evaluation</code>
+
+</td>
+<td width="50%" valign="top">
+
+### [liang-intensity-calibrator](https://github.com/HunLuanZhiZhu/liang-intensity-calibrator)
+An interactive AI-related calibration project also published as a live browser experience.
+
+<code>AI</code> · <code>interaction</code> · <code>Canvas</code> · <code>video</code>
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Stack & tools
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+
+</div>
+
+---
+
+## 🧭 Current direction
+
+<div align="center">
+
+### researching AI systems  
+↓  
+### building AI systems that help me research, code, experiment, and create
+
+</div>
+
+The website is the visual surface of that process; the repositories hold the underlying algorithms, agent workflows, infrastructure, and experiments.
+
+---
+
+<div align="center">
+
+<sub>
+Profile text summarized by <b>GPT-5.6 Sol on the ChatGPT web app</b> from the GitHub repositories of <b>HunLuanZhiZhu</b>.<br/>
+Mirrors, clones, and non-representative repositories are intentionally excluded from the core-project summary.
+</sub>
+
+</div>

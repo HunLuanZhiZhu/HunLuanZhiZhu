@@ -1,33 +1,162 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1117"/>
-      <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#0B1220"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="160" y1="60" x2="1040" y2="260" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8BE9FD"/>
-      <stop offset="0.5" stop-color="#C4B5FD"/>
-      <stop offset="1" stop-color="#FDE68A"/>
-    </linearGradient>
-    <radialGradient id="glowA"><stop stop-color="#67E8F9" stop-opacity="0.34"/><stop offset="1" stop-color="#67E8F9" stop-opacity="0"/></radialGradient>
-    <radialGradient id="glowB"><stop stop-color="#A78BFA" stop-opacity="0.28"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
-  </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <circle cx="190" cy="70" r="170" fill="url(#glowA)" filter="url(#blur)"/>
-  <circle cx="1030" cy="250" r="190" fill="url(#glowB)" filter="url(#blur)"/>
-  <g opacity="0.16" stroke="#94A3B8">
-    <path d="M0 56H1200M0 112H1200M0 168H1200M0 224H1200M0 280H1200"/>
-    <path d="M100 0V320M220 0V320M340 0V320M460 0V320M580 0V320M700 0V320M820 0V320M940 0V320M1060 0V320"/>
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#070B10"/>
+    <stop offset="0.48" stop-color="#0B1118"/>
+    <stop offset="1" stop-color="#0A1014"/>
+  </linearGradient>
+
+  <linearGradient id="hero" x1="70" y1="70" x2="590" y2="270" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#F8FAFC"/>
+    <stop offset="0.56" stop-color="#DDE7F0"/>
+    <stop offset="1" stop-color="#9FFFCB"/>
+  </linearGradient>
+
+  <linearGradient id="accent" x1="720" y1="65" x2="1110" y2="285" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#B7FF4A"/>
+    <stop offset="0.48" stop-color="#7DE8FF"/>
+    <stop offset="1" stop-color="#C6A7FF"/>
+  </linearGradient>
+
+  <radialGradient id="glowL" cx="0" cy="0" r="1" gradientTransform="translate(215 74) rotate(38) scale(340 230)">
+    <stop stop-color="#4ADE80" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#4ADE80" stop-opacity="0"/>
+  </radialGradient>
+
+  <radialGradient id="glowR" cx="0" cy="0" r="1" gradientTransform="translate(1020 170) rotate(180) scale(360 250)">
+    <stop stop-color="#60A5FA" stop-opacity=".19"/>
+    <stop offset=".58" stop-color="#A78BFA" stop-opacity=".09"/>
+    <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+  </radialGradient>
+
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" stroke="#D7E2EC" stroke-opacity=".055" stroke-width="1"/>
+  </pattern>
+
+  <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="10"/>
+  </filter>
+
+  <filter id="panelShadow" x="-20%" y="-30%" width="140%" height="170%">
+    <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity=".35"/>
+  </filter>
+
+  <clipPath id="panelClip">
+    <rect x="682" y="38" width="458" height="264" rx="22"/>
+  </clipPath>
+</defs>
+
+<rect width="1200" height="340" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="340" rx="28" fill="url(#grid)"/>
+<rect width="1200" height="340" rx="28" fill="url(#glowL)"/>
+<rect width="1200" height="340" rx="28" fill="url(#glowR)"/>
+
+<!-- subtle stars / particles -->
+<g fill="#E7EEF6">
+  <circle cx="54" cy="53" r="1.3" opacity=".58"/>
+  <circle cx="634" cy="55" r="1.2" opacity=".45"/>
+  <circle cx="624" cy="286" r="1.4" opacity=".38"/>
+  <circle cx="1150" cy="52" r="1.3" opacity=".50"/>
+  <circle cx="1129" cy="311" r="1.1" opacity=".40"/>
+  <circle cx="563" cy="38" r="1" opacity=".35"/>
+</g>
+<g stroke="#F5F3FF" stroke-linecap="round" opacity=".35">
+  <path d="M645 88V100M639 94H651"/>
+  <path d="M1160 146V157M1154.5 151.5H1165.5"/>
+  <path d="M602 248V257M597.5 252.5H606.5"/>
+</g>
+
+<!-- left identity -->
+<g>
+  <text x="72" y="72" fill="#A7F3D0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.6">BROWSER LAB / AI RESEARCH</text>
+
+  <text x="70" y="143" fill="url(#hero)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="780" letter-spacing="-2.2">HunLuanZhiZhu</text>
+
+  <text x="73" y="183" fill="#B9C6D2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="520">AI Research · Agent Systems · Browser Experiments</text>
+
+  <g transform="translate(72 207)">
+    <rect width="214" height="38" rx="19" fill="#B7FF4A" fill-opacity=".085" stroke="#B7FF4A" stroke-opacity=".34"/>
+    <circle cx="20" cy="19" r="4" fill="#B7FF4A"/>
+    <text x="36" y="24.5" fill="#DFFFB2" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" font-weight="650">zyh.sryze.cc</text>
   </g>
-  <path d="M87 228C182 168 223 74 339 106C454 138 463 261 590 238C720 214 731 76 871 92C1006 108 1003 219 1124 205" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity="0.92"/>
-  <g fill="#E2E8F0"><circle cx="87" cy="228" r="5"/><circle cx="339" cy="106" r="5"/><circle cx="590" cy="238" r="5"/><circle cx="871" cy="92" r="5"/><circle cx="1124" cy="205" r="5"/></g>
-  <text x="74" y="128" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="50" font-weight="700" letter-spacing="-1">HunLuanZhiZhu</text>
-  <text x="77" y="171" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500">AI Research · Agent Systems · Browser Lab</text>
-  <text x="77" y="205" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">zyh.sryze.cc</text>
-  <g transform="translate(840 238)">
-    <rect width="286" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <text x="143" y="27" text-anchor="middle" fill="#DCE7F5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">research → build → automate</text>
+
+  <g transform="translate(72 267)">
+    <text x="0" y="0" fill="#6F7D89" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" font-weight="650" letter-spacing="1.3">RESEARCH</text>
+    <path d="M82 -4H113" stroke="#2A3540" stroke-width="1.5"/>
+    <text x="124" y="0" fill="#6F7D89" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" font-weight="650" letter-spacing="1.3">BUILD</text>
+    <path d="M176 -4H207" stroke="#2A3540" stroke-width="1.5"/>
+    <text x="218" y="0" fill="#6F7D89" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" font-weight="650" letter-spacing="1.3">AUTOMATE</text>
+    <path d="M309 -4H340" stroke="#2A3540" stroke-width="1.5"/>
+    <text x="351" y="0" fill="#9FFFCB" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.3">EXPERIMENT</text>
   </g>
+</g>
+
+<!-- browser lab panel -->
+<g filter="url(#panelShadow)">
+  <rect x="682" y="38" width="458" height="264" rx="22" fill="#0D151D" stroke="#FFFFFF" stroke-opacity=".10"/>
+  <g clip-path="url(#panelClip)">
+    <rect x="682" y="38" width="458" height="42" fill="#111B24"/>
+    <rect x="683" y="79" width="456" height="222" fill="#0B1218"/>
+    <rect x="683" y="79" width="456" height="222" fill="url(#grid)" opacity=".48"/>
+
+    <!-- title bar -->
+    <circle cx="706" cy="59" r="4.3" fill="#FF6B6B" opacity=".86"/>
+    <circle cx="722" cy="59" r="4.3" fill="#FFD166" opacity=".86"/>
+    <circle cx="738" cy="59" r="4.3" fill="#8CE99A" opacity=".86"/>
+
+    <rect x="774" y="49" width="240" height="20" rx="10" fill="#071017" stroke="#FFFFFF" stroke-opacity=".07"/>
+    <circle cx="791" cy="59" r="2.4" fill="#B7FF4A"/>
+    <text x="802" y="63.2" fill="#8493A1" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5">zyh.sryze.cc / lab</text>
+
+    <text x="1080" y="63.2" text-anchor="end" fill="#6E7D8A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.8">LIVE</text>
+    <circle cx="1092" cy="59" r="3" fill="#B7FF4A"/>
+
+    <!-- mini hero / trefoil-ish wire -->
+    <g transform="translate(704 97)">
+      <text x="0" y="10" fill="#E7EEF6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">Browser Lab</text>
+      <text x="0" y="29" fill="#728291" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.8">interactive research index</text>
+
+      <path d="M258 12C284 -4 319 3 319 26C319 52 280 50 273 73C266 95 302 107 324 90C348 72 333 41 307 41C276 41 253 75 229 61C208 49 217 20 242 14C268 8 281 31 271 48" stroke="url(#accent)" stroke-width="2.2" fill="none" stroke-linecap="round" opacity=".92"/>
+      <circle cx="271" cy="48" r="3.3" fill="#B7FF4A"/>
+      <circle cx="319" cy="26" r="2.2" fill="#7DE8FF"/>
+      <circle cx="229" cy="61" r="2.2" fill="#C6A7FF"/>
+      <circle cx="271" cy="48" r="11" fill="#B7FF4A" opacity=".12" filter="url(#softGlow)"/>
+    </g>
+
+    <!-- cards -->
+    <g transform="translate(704 166)">
+      <rect width="126" height="106" rx="14" fill="#101923" stroke="#FFFFFF" stroke-opacity=".075"/>
+      <rect x="12" y="12" width="26" height="26" rx="8" fill="#B7FF4A" fill-opacity=".10" stroke="#B7FF4A" stroke-opacity=".24"/>
+      <path d="M19 29L25 22L30 27L35 19" stroke="#B7FF4A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="12" y="56" fill="#E7EEF6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Research</text>
+      <text x="12" y="73" fill="#71808D" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.3">optimization</text>
+      <text x="12" y="87" fill="#71808D" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.3">RL · SNN · papers</text>
+      <rect x="12" y="94" width="54" height="3" rx="1.5" fill="#B7FF4A" opacity=".55"/>
+
+      <rect x="139" width="126" height="106" rx="14" fill="#101923" stroke="#FFFFFF" stroke-opacity=".075"/>
+      <rect x="151" y="12" width="26" height="26" rx="8" fill="#7DE8FF" fill-opacity=".10" stroke="#7DE8FF" stroke-opacity=".24"/>
+      <circle cx="160" cy="25" r="2.3" fill="#7DE8FF"/>
+      <circle cx="168" cy="20" r="2.3" fill="#7DE8FF"/>
+      <circle cx="169" cy="31" r="2.3" fill="#7DE8FF"/>
+      <path d="M162 24L166 21M162 27L166.5 30" stroke="#7DE8FF" stroke-width="1.4"/>
+      <text x="151" y="56" fill="#E7EEF6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Agents</text>
+      <text x="151" y="73" fill="#71808D" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.3">skills · workflows</text>
+      <text x="151" y="87" fill="#71808D" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.3">research automation</text>
+      <rect x="151" y="94" width="70" height="3" rx="1.5" fill="#7DE8FF" opacity=".55"/>
+
+      <rect x="278" width="126" height="106" rx="14" fill="#101923" stroke="#FFFFFF" stroke-opacity=".075"/>
+      <rect x="290" y="12" width="26" height="26" rx="8" fill="#C6A7FF" fill-opacity=".10" stroke="#C6A7FF" stroke-opacity=".24"/>
+      <path d="M296 21H310M296 26H306M296 31H312" stroke="#C6A7FF" stroke-width="1.5" stroke-linecap="round"/>
+      <text x="290" y="56" fill="#E7EEF6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Browser</text>
+      <text x="290" y="73" fill="#71808D" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.3">WASM · WebGL</text>
+      <text x="290" y="87" fill="#71808D" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.3">games · visuals</text>
+      <rect x="290" y="94" width="61" height="3" rx="1.5" fill="#C6A7FF" opacity=".55"/>
+    </g>
+  </g>
+</g>
+
+<!-- bridge from identity to lab -->
+<path d="M590 154C625 154 642 154 667 154" stroke="#465563" stroke-width="1.5" stroke-dasharray="4 6"/>
+<circle cx="590" cy="154" r="3" fill="#B7FF4A"/>
+<circle cx="667" cy="154" r="3" fill="#7DE8FF"/>
 </svg>

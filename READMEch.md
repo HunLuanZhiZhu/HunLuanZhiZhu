@@ -1,3 +1,6 @@
+> [!NOTE]
+> 本主页由 **ChatGPT** 根据我的 GitHub 仓库自动总结，内容可能存在简化、遗漏或对项目定位理解不完全准确的情况。
+
 <div align="center">
 
 <img src="./assets/profile-banner.svg" width="100%" alt="HunLuanZhiZhu — AI Research, Agent Systems and Browser Lab" />

@@ -1,3 +1,6 @@
+> [!NOTE]
+> This profile was summarized by **ChatGPT** from my GitHub repositories. It may contain simplifications or imperfect interpretations of my work.
+
 <div align="center">
 
 <img src="./assets/profile-banner.svg" width="100%" alt="HunLuanZhiZhu — AI Research, Agent Systems and Browser Lab" />

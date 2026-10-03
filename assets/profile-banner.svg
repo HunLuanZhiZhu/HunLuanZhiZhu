@@ -1,0 +1,33 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="160" y1="60" x2="1040" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8BE9FD"/>
+      <stop offset="0.5" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <radialGradient id="glowA"><stop stop-color="#67E8F9" stop-opacity="0.34"/><stop offset="1" stop-color="#67E8F9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB"><stop stop-color="#A78BFA" stop-opacity="0.28"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="190" cy="70" r="170" fill="url(#glowA)" filter="url(#blur)"/>
+  <circle cx="1030" cy="250" r="190" fill="url(#glowB)" filter="url(#blur)"/>
+  <g opacity="0.16" stroke="#94A3B8">
+    <path d="M0 56H1200M0 112H1200M0 168H1200M0 224H1200M0 280H1200"/>
+    <path d="M100 0V320M220 0V320M340 0V320M460 0V320M580 0V320M700 0V320M820 0V320M940 0V320M1060 0V320"/>
+  </g>
+  <path d="M87 228C182 168 223 74 339 106C454 138 463 261 590 238C720 214 731 76 871 92C1006 108 1003 219 1124 205" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity="0.92"/>
+  <g fill="#E2E8F0"><circle cx="87" cy="228" r="5"/><circle cx="339" cy="106" r="5"/><circle cx="590" cy="238" r="5"/><circle cx="871" cy="92" r="5"/><circle cx="1124" cy="205" r="5"/></g>
+  <text x="74" y="128" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="50" font-weight="700" letter-spacing="-1">HunLuanZhiZhu</text>
+  <text x="77" y="171" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="500">AI Research · Agent Systems · Browser Lab</text>
+  <text x="77" y="205" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17">zyh.sryze.cc</text>
+  <g transform="translate(840 238)">
+    <rect width="286" height="42" rx="21" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="143" y="27" text-anchor="middle" fill="#DCE7F5" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">research → build → automate</text>
+  </g>
+</svg>

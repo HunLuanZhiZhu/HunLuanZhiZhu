@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="230" viewBox="0 0 560 230" role="img" aria-labelledby="title desc"><title id="title">Game-Studios-Plugin project illustration</title><desc id="desc">A custom graphical illustration for the HunLuanZhiZhu GitHub profile.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0C172A"/><stop offset="1" stop-color="#101C32"/></linearGradient><radialGradient id="aura"><stop stop-color="#FFA9CF" stop-opacity=".18"/><stop offset="1" stop-color="#FFA9CF" stop-opacity="0"/></radialGradient><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#F1F8FF" stroke-opacity=".04"/></pattern></defs>
+<rect width="560" height="230" rx="19" fill="url(#bg)"/><rect width="560" height="230" rx="19" fill="url(#grid)"/>
+<circle cx="420" cy="110" r="165" fill="url(#aura)"/>
+<rect x="8" y="8" width="544" height="214" rx="14" fill="none" stroke="#FFA9CF" stroke-opacity=".28"/>
+<path d="M27 26H95" stroke="#FFA9CF" stroke-width="3"/>
+<text x="27" y="57" fill="#FFA9CF" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="2">GAME DEV / MULTI-AGENT</text>
+<text x="26" y="112" fill="#F6FAFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" letter-spacing="-1" font-weight="760">Game-Studios-Plugin</text>
+<text x="28" y="144" fill="#ACC0D5" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Agent-powered game tooling</text>
+<rect x="26" y="178" width="93" height="25" rx="12.5" fill="#FFA9CF" fill-opacity=".12" stroke="#FFA9CF" stroke-opacity=".32"/>
+<text x="38" y="195" fill="#FFA9CF" font-family="ui-monospace,Consolas,monospace" font-size="11">REPO  05</text>
+<g transform="translate(331 31)"><g stroke="#FFA9CF" stroke-width="2" fill="none"><path d="M35 47H170Q189 47 194 67L205 125Q206 145 187 141L151 115H55L17 141Q-2 144 2 124L13 67Q17 47 35 47Z" stroke-width="3"/><path d="M50 71V105M33 88H67" stroke-width="5" stroke-linecap="round"/><circle cx="147" cy="77" r="7"/><circle cx="172" cy="100" r="7"/><circle cx="141" cy="113" r="4"/><circle cx="165" cy="65" r="4"/></g><g fill="#FFA9CF"><circle cx="90" cy="88" r="4"/><circle cx="113" cy="88" r="4"/></g></g>
+<path d="M527 190L537 180M527 180H537V190" stroke="#FFA9CF" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

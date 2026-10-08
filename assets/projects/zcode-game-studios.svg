@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="230" viewBox="0 0 560 230" role="img" aria-labelledby="title desc"><title id="title">ZCode-Game-Studios project illustration</title><desc id="desc">A custom graphical illustration for the HunLuanZhiZhu GitHub profile.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0C172A"/><stop offset="1" stop-color="#101C32"/></linearGradient><radialGradient id="aura"><stop stop-color="#FFBBA2" stop-opacity=".18"/><stop offset="1" stop-color="#FFBBA2" stop-opacity="0"/></radialGradient><pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#F1F8FF" stroke-opacity=".04"/></pattern></defs>
+<rect width="560" height="230" rx="19" fill="url(#bg)"/><rect width="560" height="230" rx="19" fill="url(#grid)"/>
+<circle cx="420" cy="110" r="165" fill="url(#aura)"/>
+<rect x="8" y="8" width="544" height="214" rx="14" fill="none" stroke="#FFBBA2" stroke-opacity=".28"/>
+<path d="M27 26H95" stroke="#FFBBA2" stroke-width="3"/>
+<text x="27" y="57" fill="#FFBBA2" font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="2">WORKFLOWS / GAMES</text>
+<text x="26" y="112" fill="#F6FAFF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" letter-spacing="-1" font-weight="760">ZCode-Game-Studios</text>
+<text x="28" y="144" fill="#ACC0D5" font-size="14" font-family="Inter,Segoe UI,Arial,sans-serif">Game creation workflows</text>
+<rect x="26" y="178" width="93" height="25" rx="12.5" fill="#FFBBA2" fill-opacity=".12" stroke="#FFBBA2" stroke-opacity=".32"/>
+<text x="38" y="195" fill="#FFBBA2" font-family="ui-monospace,Consolas,monospace" font-size="11">REPO  06</text>
+<g transform="translate(331 31)"><g stroke="#FFBBA2" fill="none" stroke-width="2"><path d="M103 13L181 55V123L103 163L26 123V55Z"/><path d="M103 13V83M26 55L103 83L181 55M103 83V163"/><circle cx="103" cy="83" r="22" stroke-opacity=".35"/></g><path d="M84 87L98 103L122 64" stroke="#FFBBA2" stroke-width="5" stroke-linecap="round" fill="none"/><g fill="#FFBBA2"><circle cx="26" cy="55" r="5"/><circle cx="181" cy="123" r="5"/></g></g>
+<path d="M527 190L537 180M527 180H537V190" stroke="#FFBBA2" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,244 +1,132 @@
-> [!NOTE]
-> 本主页由 **ChatGPT** 根据我的 GitHub 仓库自动总结，内容可能存在简化、遗漏或对项目定位理解不完全准确的情况。
-
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="HunLuanZhiZhu — AI Research, Agent Systems and Browser Lab" />
+<img src="./assets/profile-banner.svg" width="100%" alt="HunLuanZhiZhu — 人工智能研究、智能体工程与浏览器实验" />
 
-<br/>
+<p>
+<a href="https://zyh.sryze.cc/">浏览器实验室 ↗</a> &nbsp;·&nbsp;
+<a href="https://github.com/HunLuanZhiZhu?tab=repositories">公开仓库 ↗</a> &nbsp;·&nbsp;
+<a href="./README.md">English version</a>
+</p>
 
-<a href="https://zyh.sryze.cc/"><img src="https://img.shields.io/badge/浏览器实验室-zyh.sryze.cc-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="个人网站"/></a>
-<a href="https://github.com/HunLuanZhiZhu"><img src="https://img.shields.io/badge/GitHub-HunLuanZhiZhu-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="./README.md"><img src="https://img.shields.io/badge/English-README.md-2563eb?style=for-the-badge" alt="English version"/></a>
-
-<br/><br/>
-
-**AI 研究 · 优化算法 · 智能体基础设施 · 浏览器实验**
+<strong>从研究问题出发，把算法变成可运行的实验，再把实验变成可复用的工具。</strong>
 
 </div>
 
 ---
 
-## 🧪 个人网站 — Browser Lab
+## 你好，我是 HunLuanZhiZhu
 
-> **https://zyh.sryze.cc/**  
-> GitHub Pages 备用地址：https://hunluanzhizhu.github.io/
+一名关注人工智能研究与工程实践的研究生。我的兴趣集中在**优化算法、强化学习、脉冲神经网络、智能体系统**以及**浏览器端交互实验**。
 
-我的个人网站不是传统意义上的“个人简介页”，而是一个持续扩展的 **浏览器实验室 / 公开作品索引**。
-
-研究展示、交互实验、图形、小游戏、AI 生成与评测、工具和小型应用，都尽量以“可以直接打开使用”的形式放进浏览器里。
-
-网站本身也刻意保持轻量：根首页使用纯静态 HTML，大量 CSS / JavaScript / 字体直接内联，不依赖运行时前端框架；各个实验则独立放在 <code>/projects/</code> 下。
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧱 Minecraft Web
-**Rust · Bevy · WebAssembly**
-
-编译到 WASM 的浏览器 3D 沙盒实验。
-
-[打开项目 →](https://zyh.sryze.cc/projects/minecraft-web/)
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 组会 PPT 合集
-**Slides · KaTeX · SVG · WebGL**
-
-把研究组会讲稿直接发布为网页演示，并提供独立的场次聚合索引。
-
-[打开项目 →](https://zyh.sryze.cc/projects/group-meeting-ppts/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎮 AI 游戏生成评测
-**Benchmark · Godot · WASM**
-
-把 AI 生成游戏与游戏制作流程的评测结果直接发布到浏览器中。
-
-[打开项目 →](https://zyh.sryze.cc/projects/game-studio-eval-s2/)
-
-</td>
-<td width="50%" valign="top">
-
-### ❤️ 心韵深辨 · ECG AI Local
-**TensorFlow.js · SNN · Local AI**
-
-在浏览器本地运行的 ECG / AI 实验，探索客户端推理与神经建模。
-
-[打开项目 →](https://zyh.sryze.cc/projects/ecg-ai-local/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎛️ Liang Intensity Calibrator
-**AI · Video · Canvas**
-
-结合 AI 生成内容、视频与浏览器图形交互的校准实验。
-
-[打开项目 →](https://zyh.sryze.cc/projects/liang-intensity-calibrator/)
-
-</td>
-<td width="50%" valign="top">
-
-### ✨ Open Design Test
-**WebGL2 · Shader · Interactive Design**
-
-围绕程序生成视觉、交互和着色器效果展开的浏览器图形实验。
-
-[打开项目 →](https://zyh.sryze.cc/projects/open-design-test/)
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-[**进入完整 Browser Lab →**](https://zyh.sryze.cc/)
-
-</div>
-
-首页本身也是实验的一部分：项目分类与搜索、中英文切换、程序生成图形、WebGL 效果、动效控制、响应式布局、键盘导航以及一些刻意打磨的小交互都直接实现在页面里。
-
----
-
-## 🔬 我主要在做什么
+我更喜欢可以被验证的成果：读论文、理解机制、复现基线、改动方法、观察数据，最后把有效的想法做成能够运行、复用和展示的项目。
 
 <table>
 <tr>
 <td width="33%" valign="top">
-
-### 研究
-优化算法、强化学习、脉冲神经网络、论文复现、实验性模型与训练方法。
-
+<h3>01 / 算法研究</h3>
+<p>优化方法、强化学习、脉冲神经网络，以及从论文到代码的实验复现。</p>
 </td>
 <td width="33%" valign="top">
-
-### 智能体系统
-可复用智能体技能、自动研究 / 自动编程流程、大模型接口基础设施、工作空间工具。
-
+<h3>02 / 智能体工程</h3>
+<p>智能体技能、自动编程、研究流程自动化和模型接口工具。</p>
 </td>
 <td width="33%" valign="top">
-
-### 浏览器工程
-WebAssembly、WebGL、Canvas、SVG、浏览器原生 Demo、小游戏和交互式研究展示。
-
+<h3>03 / 交互实验</h3>
+<p>借助浏览器、图形技术与轻量应用，让研究成果可以直接体验。</p>
 </td>
 </tr>
 </table>
 
-<div align="center">
+## 在线实验室 · Browser Lab
 
-**论文 → 机制 → 复现 → 修改 → 实验 → 工程化 → 自动化**
+<table>
+<tr>
+<td valign="top" width="68%">
+<h3><a href="https://zyh.sryze.cc/">zyh.sryze.cc ↗</a></h3>
+<p>这不是一张静态名片，而是持续迭代的浏览器实验室。研究展示、交互设计、可视化、小游戏和工具都以“打开即可体验”为目标。</p>
+<p>站点采用静态网页组织，每个实验相对独立，兼顾轻量、响应式布局和原生浏览器能力。</p>
+</td>
+<td valign="top" width="32%">
+<p><strong>在浏览器中运行</strong></p>
+<p>WebAssembly<br/>WebGL / SVG<br/>Canvas<br/>交互式研究展示</p>
+<p><a href="https://github.com/HunLuanZhiZhu/hunluanzhizhu.github.io">查看公开站点源码 ↗</a></p>
+</td>
+</tr>
+</table>
 
-</div>
+## 公开项目
 
----
-
-## 🚀 代表仓库
+**可访问、可查看源码。** 以下条目均为公开仓库，链接指向对应的 GitHub 项目。
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### [AdaNCFGD](https://github.com/HunLuanZhiZhu/AdaNCFGD)
-基于 PyTorch 的自适应分数阶梯度下降优化器，并包含脉冲神经网络相关实现。
-
-<code>优化算法</code> · <code>PyTorch</code> · <code>SNN</code> · <code>研究软件</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/AdaNCFGD">AdaNCFGD ↗</a></h3>
+<p>自适应分数阶梯度下降研究，包含面向 PyTorch 的优化器实现。</p>
+<p><sub>优化算法 · PyTorch</sub></p>
 </td>
 <td width="50%" valign="top">
-
-### [mini-proxy](https://github.com/HunLuanZhiZhu/mini-proxy)
-使用 Rust 编写的大模型 API 轻量代理，兼容 OpenAI、Anthropic 与 Responses 风格接口，并处理流式转发、重试、模型映射和请求适配。
-
-<code>Rust</code> · <code>AI API</code> · <code>SSE</code> · <code>基础设施</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/PSN-Reset">PSN-Reset ↗</a></h3>
+<p>脉冲神经网络并行重置机制的研究与实现。</p>
+<p><sub>脉冲神经网络 · PyTorch</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### [.agents](https://github.com/HunLuanZhiZhu/.agents)
-我的可复用 AI 智能体技能和工作流层：技能组织、行为约束、版本锁定，以及研究 / 生产力工具。
-
-<code>智能体</code> · <code>技能</code> · <code>自动化</code> · <code>工作流</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/mini-proxy">mini-proxy ↗</a></h3>
+<p>轻量级大模型接口代理，支持流式转发、自动重试与请求适配。</p>
+<p><sub>Rust · 接口基础设施</sub></p>
 </td>
 <td width="50%" valign="top">
-
-### [Auto-zcode-research-in-sleep](https://github.com/HunLuanZhiZhu/Auto-zcode-research-in-sleep)
-围绕 AI 智能体自动研究、自动编程流程展开的实验。
-
-<code>智能体</code> · <code>研究自动化</code> · <code>编程</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/.agents">.agents ↗</a></h3>
+<p>整理并复用智能体技能、行为规范与研究工作流。</p>
+<p><sub>智能体 · 自动化</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### [ZCode-Game-Studios](https://github.com/HunLuanZhiZhu/ZCode-Game-Studios)
-围绕 AI 辅助游戏生成与评测的项目，与个人网站上的公开评测页面相互关联。
-
-<code>AI</code> · <code>游戏</code> · <code>评测</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/Game-Studios-Plugin">Game-Studios-Plugin ↗</a></h3>
+<p>面向智能体辅助游戏开发的插件与多角色协作流程。</p>
+<p><sub>智能体 · 游戏开发</sub></p>
 </td>
 <td width="50%" valign="top">
-
-### [liang-intensity-calibrator](https://github.com/HunLuanZhiZhu/liang-intensity-calibrator)
-AI 相关交互校准项目，同时以可直接访问的网页作品发布在个人网站中。
-
-<code>AI</code> · <code>交互</code> · <code>Canvas</code> · <code>视频</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/ZCode-Game-Studios">ZCode-Game-Studios ↗</a></h3>
+<p>围绕 ZCode 构建的智能体游戏开发工作流。</p>
+<p><sub>工作流 · 游戏开发</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/HunLuanZhiZhu/zuhui-ppt">zuhui-ppt ↗</a></h3>
+<p>将研究组会演示与技术内容整理为可访问的网页展示。</p>
+<p><sub>研究展示 · 浏览器</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/HunLuanZhiZhu/liang-intensity-calibrator">liang-intensity-calibrator ↗</a></h3>
+<p>结合视频、交互图形与校准逻辑的网页实验。</p>
+<p><sub>浏览器实验 · 图形交互</sub></p>
 </td>
 </tr>
 </table>
 
----
+## 私有项目
 
-## 🧰 技术栈与工具
+此处**仅展示项目名称**；不提供仓库链接、实现细节、运行方式或研究进展。
+
+<code>MaxFormer</code> &nbsp;·&nbsp; <code>Guon</code> &nbsp;·&nbsp; <code>alo-marl-fs</code> &nbsp;·&nbsp; <code>math-modeling-skills</code> &nbsp;·&nbsp; <code>pnn</code> &nbsp;·&nbsp; <code>mems</code> &nbsp;·&nbsp; <code>MUD3</code> &nbsp;·&nbsp; <code>rl-fs</code> &nbsp;·&nbsp; <code>MinimalWorldModel</code>
+
+## 技术与工作方式
+
+**常用工具**　`Python` · `PyTorch` · `Rust` · `JavaScript` · `WebAssembly` · `WebGL` · `Git`
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+**提出问题 → 理解机制 → 实验复现 → 改进验证 → 工程实现 → 自动化迭代**
 
 </div>
 
 ---
 
-## 🧭 当前方向
-
 <div align="center">
-
-### 研究 AI 系统  
-↓  
-### 构建能够帮助我继续研究、编程、实验和创作的 AI 系统
-
-</div>
-
-个人网站是这套过程最直观的展示面，而 GitHub 仓库保存更底层的算法、智能体工作流、基础设施和实验实现。
-
----
-
-<div align="center">
-
-<sub>
-本页由 <b>GPT-5.6 Sol 网页版</b> 根据 <b>HunLuanZhiZhu</b> 当前 GitHub 仓库总结生成。<br/>
-镜像、克隆以及不能代表本人主要方向的仓库不会被作为核心项目介绍。
-</sub>
-
+<sub>资料整理模型标识：<strong>GPT-6.1 Sol</strong> · 文字为研究与项目方向的概括，不代表项目均已完成；私有项目仅列名称。</sub>
 </div>

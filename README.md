@@ -1,242 +1,132 @@
-> [!NOTE]
-> This profile was summarized by **ChatGPT** from my GitHub repositories. It may contain simplifications or imperfect interpretations of my work.
-
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="HunLuanZhiZhu — AI Research, Agent Systems and Browser Lab" />
+<img src="./assets/profile-banner.svg" width="100%" alt="HunLuanZhiZhu — AI Research, Agent Engineering and Browser Experiments" />
 
-<br/>
+<p>
+<a href="https://zyh.sryze.cc/">Browser Lab ↗</a> &nbsp;·&nbsp;
+<a href="https://github.com/HunLuanZhiZhu?tab=repositories">Public Repositories ↗</a> &nbsp;·&nbsp;
+<a href="./READMEch.md">中文版</a>
+</p>
 
-<a href="https://zyh.sryze.cc/"><img src="https://img.shields.io/badge/Browser_Lab-zyh.sryze.cc-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Browser Lab"/></a>
-<a href="https://github.com/HunLuanZhiZhu"><img src="https://img.shields.io/badge/GitHub-HunLuanZhiZhu-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="./READMEch.md"><img src="https://img.shields.io/badge/中文版本-READMEch.md-2563eb?style=for-the-badge" alt="Chinese version"/></a>
-
-<br/><br/>
-
-**AI research · optimization · agent infrastructure · browser experiments**
+<strong>From research questions to working experiments — and from experiments to reusable tools.</strong>
 
 </div>
 
 ---
 
-## 🧪 Browser Lab — my main public showcase
+## Hi, I'm HunLuanZhiZhu
 
-> **https://zyh.sryze.cc/**  
-> GitHub Pages fallback: https://hunluanzhizhu.github.io/
+I'm a graduate student interested in **AI research and engineering**, with a focus on **optimization, reinforcement learning, spiking neural networks, agent systems**, and **browser-native experiments**.
 
-My personal site is not a conventional portfolio page. It is a **browser-native laboratory** where research artifacts, interactive experiments, graphics, games, AI-assisted creations, and small applications are published as things you can actually open and use.
-
-The site itself is deliberately lightweight: a static, framework-free front page with inline CSS / JavaScript / fonts, while individual experiments live under <code>/projects/</code>.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧱 Minecraft Web
-**Rust · Bevy · WebAssembly**
-
-A browser-based 3D sandbox experiment compiled to WASM.
-
-[Open project →](https://zyh.sryze.cc/projects/minecraft-web/)
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 Group Meeting PPTs
-**Slides · KaTeX · SVG · WebGL**
-
-Research presentations published directly as browser experiences, with a dedicated session index.
-
-[Open project →](https://zyh.sryze.cc/projects/group-meeting-ppts/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎮 AI Game Studio Eval
-**Benchmark · Godot · WASM**
-
-A browser-published evaluation of AI-generated games and game-building workflows.
-
-[Open project →](https://zyh.sryze.cc/projects/game-studio-eval-s2/)
-
-</td>
-<td width="50%" valign="top">
-
-### ❤️ ECG AI Local
-**TensorFlow.js · SNN · Local AI**
-
-A browser-local ECG / AI experiment exploring client-side inference and neural modeling ideas.
-
-[Open project →](https://zyh.sryze.cc/projects/ecg-ai-local/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎛️ Liang Intensity Calibrator
-**AI · Video · Canvas**
-
-An interactive calibration experiment combining AI-generated material, video, and browser graphics.
-
-[Open project →](https://zyh.sryze.cc/projects/liang-intensity-calibrator/)
-
-</td>
-<td width="50%" valign="top">
-
-### ✨ Open Design Test
-**WebGL2 · Shader · Interactive Design**
-
-A browser graphics experiment centered on procedural visuals, interaction, and shader-driven effects.
-
-[Open project →](https://zyh.sryze.cc/projects/open-design-test/)
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-[**Explore the full Browser Lab →**](https://zyh.sryze.cc/)
-
-</div>
-
-The homepage is also part of the experiment: project filtering and search, Chinese / English switching, procedural visuals, WebGL effects, motion controls, responsive layouts, keyboard navigation, and small interaction details are all implemented directly in the page.
-
----
-
-## 🔬 What I build
+I like work that can be tested: studying mechanisms, reproducing baselines, changing an idea, analyzing the evidence, and turning useful results into software that others can actually run.
 
 <table>
 <tr>
 <td width="33%" valign="top">
-
-### Research
-Optimization algorithms, reinforcement learning, spiking neural networks, paper reproduction, experimental model ideas.
-
+<h3>01 / Research</h3>
+<p>Optimization, reinforcement learning, spiking neural networks, and reproducible experiments.</p>
 </td>
 <td width="33%" valign="top">
-
-### Agent Systems
-Reusable agent skills, automated research / coding workflows, model API infrastructure, workspace tooling.
-
+<h3>02 / Agent Engineering</h3>
+<p>Agent skills, coding workflows, research automation, and model API infrastructure.</p>
 </td>
 <td width="33%" valign="top">
-
-### Browser Engineering
-WebAssembly, WebGL, Canvas, SVG, browser-native demos, games, interactive research presentations.
-
+<h3>03 / Interactive Work</h3>
+<p>Browser applications and visual tools that make research and creative experiments tangible.</p>
 </td>
 </tr>
 </table>
 
-<div align="center">
+## Browser Lab · Live Experiments
 
-**paper → mechanism → reproduction → modification → experiment → engineering → automation**
+<table>
+<tr>
+<td valign="top" width="68%">
+<h3><a href="https://zyh.sryze.cc/">zyh.sryze.cc ↗</a></h3>
+<p>More than a static portfolio, this is an evolving collection of research demos, visual experiments, interactive designs, games, and small utilities — built to be opened and explored.</p>
+<p>A lightweight static index connects independently developed browser experiences, with responsive layouts and native browser technologies.</p>
+</td>
+<td valign="top" width="32%">
+<p><strong>Built for the browser</strong></p>
+<p>WebAssembly<br/>WebGL / SVG<br/>Canvas<br/>Interactive research</p>
+<p><a href="https://github.com/HunLuanZhiZhu/hunluanzhizhu.github.io">Public website source ↗</a></p>
+</td>
+</tr>
+</table>
 
-</div>
+## Public Projects
 
----
-
-## 🚀 Representative repositories
+**Open repositories with source links.** Every linked project in this section is publicly visible.
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-### [AdaNCFGD](https://github.com/HunLuanZhiZhu/AdaNCFGD)
-Adaptive fractional gradient-descent optimizers with PyTorch integration and a spiking-neural-network framework.
-
-<code>optimization</code> · <code>PyTorch</code> · <code>SNN</code> · <code>research software</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/AdaNCFGD">AdaNCFGD ↗</a></h3>
+<p>Adaptive fractional-gradient optimization research with PyTorch implementations.</p>
+<p><sub>Optimization · PyTorch</sub></p>
 </td>
 <td width="50%" valign="top">
-
-### [mini-proxy](https://github.com/HunLuanZhiZhu/mini-proxy)
-A lightweight Rust proxy for OpenAI-style, Anthropic-style, and Responses-style model APIs, with streaming, retries, mapping, and request adaptation.
-
-<code>Rust</code> · <code>AI API</code> · <code>SSE</code> · <code>infrastructure</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/PSN-Reset">PSN-Reset ↗</a></h3>
+<p>Research implementations of parallel reset mechanisms for spiking neural networks.</p>
+<p><sub>Spiking Neural Networks · PyTorch</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### [.agents](https://github.com/HunLuanZhiZhu/.agents)
-My reusable AI-agent skills and workflow layer: behavior rules, skill organization, version locking, and research / productivity tooling.
-
-<code>agents</code> · <code>skills</code> · <code>automation</code> · <code>workflow</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/mini-proxy">mini-proxy ↗</a></h3>
+<p>A lightweight AI API proxy with streaming, retries and request adaptation.</p>
+<p><sub>Rust · API Infrastructure</sub></p>
 </td>
 <td width="50%" valign="top">
-
-### [Auto-zcode-research-in-sleep](https://github.com/HunLuanZhiZhu/Auto-zcode-research-in-sleep)
-An experiment around automating research and coding workflows with AI agents.
-
-<code>agents</code> · <code>research automation</code> · <code>coding</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/.agents">.agents ↗</a></h3>
+<p>Reusable agent skills, behavioral conventions and research workflows.</p>
+<p><sub>Agents · Automation</sub></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-### [ZCode-Game-Studios](https://github.com/HunLuanZhiZhu/ZCode-Game-Studios)
-AI-assisted game creation and evaluation work, connected to the public browser demos in my Browser Lab.
-
-<code>AI</code> · <code>games</code> · <code>evaluation</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/Game-Studios-Plugin">Game-Studios-Plugin ↗</a></h3>
+<p>A plugin and multi-agent workflows for AI-assisted game development.</p>
+<p><sub>Agents · Game Development</sub></p>
 </td>
 <td width="50%" valign="top">
-
-### [liang-intensity-calibrator](https://github.com/HunLuanZhiZhu/liang-intensity-calibrator)
-An interactive AI-related calibration project also published as a live browser experience.
-
-<code>AI</code> · <code>interaction</code> · <code>Canvas</code> · <code>video</code>
-
+<h3><a href="https://github.com/HunLuanZhiZhu/ZCode-Game-Studios">ZCode-Game-Studios ↗</a></h3>
+<p>Agent-based game development workflows adapted for ZCode.</p>
+<p><sub>Workflows · Game Development</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/HunLuanZhiZhu/zuhui-ppt">zuhui-ppt ↗</a></h3>
+<p>Browser-based research presentations and technical meeting materials.</p>
+<p><sub>Research Presentations · Web</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/HunLuanZhiZhu/liang-intensity-calibrator">liang-intensity-calibrator ↗</a></h3>
+<p>A web experiment combining video, interactive graphics and calibration.</p>
+<p><sub>Browser Experiments · Graphics</sub></p>
 </td>
 </tr>
 </table>
 
----
+## Private Projects
 
-## 🧰 Stack & tools
+**Names only.** No repository links, implementation details, access information, or project progress are disclosed.
+
+<code>MaxFormer</code> &nbsp;·&nbsp; <code>Guon</code> &nbsp;·&nbsp; <code>alo-marl-fs</code> &nbsp;·&nbsp; <code>math-modeling-skills</code> &nbsp;·&nbsp; <code>pnn</code> &nbsp;·&nbsp; <code>mems</code> &nbsp;·&nbsp; <code>MUD3</code> &nbsp;·&nbsp; <code>rl-fs</code> &nbsp;·&nbsp; <code>MinimalWorldModel</code>
+
+## Tools & Process
+
+**Common tools**　`Python` · `PyTorch` · `Rust` · `JavaScript` · `WebAssembly` · `WebGL` · `Git`
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+**Question → Mechanism → Reproduction → Experiment → Implementation → Automation**
 
 </div>
 
 ---
 
-## 🧭 Current direction
-
 <div align="center">
-
-### researching AI systems  
-↓  
-### building AI systems that help me research, code, experiment, and create
-
-</div>
-
-The website is the visual surface of that process; the repositories hold the underlying algorithms, agent workflows, infrastructure, and experiments.
-
----
-
-<div align="center">
-
-<sub>
-Profile text summarized by <b>GPT-5.6 Sol on the ChatGPT web app</b> from the GitHub repositories of <b>HunLuanZhiZhu</b>.<br/>
-Mirrors, clones, and non-representative repositories are intentionally excluded from the core-project summary.
-</sub>
-
+<sub>Profile curation model label: <strong>GPT-6.1 Sol</strong> · Descriptions summarize areas of work, not completion status. Private projects are listed by name only.</sub>
 </div>
